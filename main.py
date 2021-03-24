@@ -43,7 +43,7 @@ class NaZakupy:
         print(self.ilosc, self.jednostka_miary)
     def ile_kosztuje(self):
         print(self.ilosc * self.cena_jed)
-zakupy = NaZakupy("ziemiank", 5, "kg", 2.49)
+zakupy = NaZakupy("ziemnianki", 3, "kg", 2.20)
 zakupy.wyswietl_produkt()
 zakupy.ile_produktu()
 zakupy.ile_kosztuje()
